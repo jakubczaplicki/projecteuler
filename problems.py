@@ -188,6 +188,14 @@ class problem24():
       self.increase(0)
   ##unfinished
 
+class problem16():
+  def result(self):
+    str = "%s" % 2**1000
+    n = 0
+    for s in str:
+      n = n + int(float(s))
+    print n
+  #1366
 
 #print problem1().result()
 #print problem2().result()
@@ -195,5 +203,6 @@ class problem24():
 #print problem4().result()
 #print problem5().result()
 #print problem6().result()
-problem24().result()
+#problem24().result()
+problem16().result()
 
