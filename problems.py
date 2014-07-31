@@ -197,6 +197,17 @@ class problem16():
     print n
   #1366
 
+class problem20():
+  import math
+  def result(self):
+    str = "%s" % math.factorial(100)
+    n = 0
+    for s in str:
+      n = n + int(float(s))
+    print n
+  #648
+
+  
 #print problem1().result()
 #print problem2().result()
 #print problem3().result()
@@ -204,5 +215,4 @@ class problem16():
 #print problem5().result()
 #print problem6().result()
 #problem24().result()
-problem16().result()
-
+problem20().result()
