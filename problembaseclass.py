@@ -63,7 +63,7 @@ class ProblemBaseClass(object):
          Must be implemented
         """
 
-    def isPrime(number):
+    def isPrime(self, number):
         """Returns True is number is prime, False otherwise"""
         # This algorithm checks if the given number can be divided by integers of the form 6k +/- 1
         # see: http://en.wikipedia.org/wiki/Primality_test#Naive_methods
@@ -76,7 +76,6 @@ class ProblemBaseClass(object):
                 return False
         return True
 
-        
 if __name__ == '__main__':
     problem = problem1()
     problem.compute()

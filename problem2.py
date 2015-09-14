@@ -28,8 +28,8 @@ class Problem2(ProblemBaseClass):
         _sum = 0
         for n in range(1, 33):
             fib = self.f(n)
-        if not fib % 2:
-            _sum = _sum + fib
+            if not fib % 2:
+                _sum = _sum + fib
         self.result = _sum #4613732 (OK)
 
 if __name__ == '__main__':
